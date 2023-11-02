@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-print("ABCDEFGHIJKLM")
-print("NOPQRSTUVXYZ")
+import string
+print(string.ascii_uppercase)
