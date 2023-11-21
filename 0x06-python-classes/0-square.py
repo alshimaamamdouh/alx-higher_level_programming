@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 
+
 class Square:
-    """empty class Square that defines a square:"""
+    """
+    A class that represents a square.
+
+    Attributes:
+    - side_length (float): The length of each side of the square.
+    """
     pass
