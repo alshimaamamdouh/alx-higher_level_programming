@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """task 3"""
 
+
 class Rectangle:
     """Takes in args for width and height of a rectangle, and contains methods
     for calculation of the area or perimeter.

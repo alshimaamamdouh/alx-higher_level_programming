@@ -1,25 +1,32 @@
 #!/usr/bin/python3
-"""
-taskl 1
-rectangle
-"""
-class Rectangle:
-    """ defines a rectangle
+"""task 1"""
 
-    Attribute:
+
+class Rectangle:
+    """At this stage the class only creates private instance attributes by
+    taking in two arguments.
+
+    Args:
         width (int): horizontal dimension of rectangle, defaults to 0
         height (int): vertical dimension of rectangle, defaults to 0
-        """
-        
-        def __init__(self, width=0, height=0):
+
+    """
+    def __init__(self, width=0, height=0):
+        # attribute assigment here engages setters defined below
         self.width = width
         self.height = height
 
-        @property
-        def width(self):
-            """__width getter"""
-            return self.__width
-        @width.setter
+    @property
+    def width(self):
+        """__width getter.
+
+        Returns:
+            __width (int): horizontal dimension of rectangle
+
+        """
+        return self.__width
+
+    @width.setter
     def width(self, value):
         """Args:
             value (int): horizontal dimension of rectangle
