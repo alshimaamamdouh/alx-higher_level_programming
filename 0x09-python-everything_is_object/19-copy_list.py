@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-""" task 19"""
-
-
-def copy_list(s):
-    """ returns a copy of a list"""
-    temp = s[:]
+def copy_list(l):
+    temp = l[:]
     return temp
