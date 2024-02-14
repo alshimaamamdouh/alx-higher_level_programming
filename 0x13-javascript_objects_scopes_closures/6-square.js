@@ -6,7 +6,7 @@ class Square extends square {
     if (c === undefined) {
       sympol = 'X';
     } else {
-      sympol = 'c';
+      sympol = c;
     }
     for (let i = 0; i < this.height; i++) {
       let row = '';
