@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-
+""" find peak """
 
 def find_peak(list_of_integers):
+    """ peak"""
     if not list_of_integers:
         return None
 
